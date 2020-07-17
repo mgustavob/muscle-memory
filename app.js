@@ -24,43 +24,91 @@ const lakers = {
     players: ['LBJ', 'Anthony Davis', 'Danny Green'],
     areChampions: true
 }
-function passArray (array1) {
-    console.log('This function passes and array');
 
-}
 
-function passString(name1) {
-    console.log('I take the string and put it here: ' +name1);
-};
+// function passArray (array1) {
+//     console.log('This function passes and array');
 
-function passObject(object1) {
+// }
 
-}
+// function passString(name1) {
+//     console.log('I take the string and put it here: ' +name1);
+// };
 
-function boolean1(ifTrue) {
-    if (if True == true) {
-        console.log(false);
-    } else {
-        console.log('false');
+// function passObject(object1) {
+
+// }
+
+// function boolean1(ifTrue) {
+//     if (if True == true) {
+//         console.log(false);
+//     } else {
+//         console.log('false');
+//     }
+// }
+
+// function sum1(numb1, numb2) {
+//     return numb1 + numb2;
+// }
+
+// function multi1(numb1, numb2) {
+//     return numb1 * numb2;
+// }
+
+// function substrac1(numb1, numb2) {
+//     return numb1 - numb2;
+// }
+
+// function yourName(name1) {
+//     console.log('Your name is : ' +name1);
+// }
+
+// function favColor(input1) {
+//     console.log('your favorite color is: ' +input1)
+// }
+
+function displayCoolBikes(array) {
+    let result = [];
+
+    for (let i = 0; i < array.length; i++) {
+        let nike = array[i];
+
+        if (displayCoolBikes.length >7) {
+            result.push(bike);
+        }
     }
 }
 
-function sum1(numb1, numb2) {
-    return numb1 + numb2;
+function removeFromArray(callback, array) {
+    let result= callback(array);
+    console.log(result);
 }
 
-function multi1(numb1, numb2) {
-    return numb1 * numb2;
+function printSentence(string1) {
+    console.log(string1);
 }
 
-function substrac1(numb1, numb2) {
-    return numb1 - numb2;
+console.log(removeFromArray(displayCoolBikes, motorcycles));
+
+function printPlayers(object) {
+    console.log(object.players);
 }
 
-function yourName(name1) {
-    console.log('Your name is : ' +name1);
+printPlayers(lakers);
+
+function printEachPlayer(object) {
+    object.player.forEach(eachPlayer => {
+        console.log(eachPlayer);
+    });
 }
 
-function favColor(input1) {
-    console.log('your favorite color is: ' +input1)
+function doesThisReallyWork(boolean1) {
+    if(boolean1) {
+        console.log('this works');
+    } else {
+        console.log('Doesnt work');
+    };
+
 }
+
+
