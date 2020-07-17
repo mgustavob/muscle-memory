@@ -111,4 +111,48 @@ function doesThisReallyWork(boolean1) {
 
 }
 
+const sectionOne = document.getElementById('section1');
+console.log(sectionOne);
 
+const sectionTwo = document.getElementById('section2');
+console.log(sectionTwo);
+
+const sectionThree = document.querySelector('#section3');
+console.log(sectionThree);
+
+const sectionFour = document.querySelector('#section4');
+console.log(sectionFour);
+
+const sectionFive = document.querySelector('#section5');
+console.log(sectionFive);
+
+sectionOne.textContent = 'Lakers';
+sectionTwo.textContent = 'Warriors';
+sectionThree.textContent = 'Celtics';
+sectionFour.textContent = 'Nets';
+sectionFive.textContent = 'Blazers';
+
+const paraOne = document.querySelector('.paragraph1');
+console.log(paraOne);
+
+paraOne.textContent = 'Lebron James';
+
+const paraTwo = document.querySelector('.paragraph2');
+console.log(paraOne);
+
+paraTwo.textContent = 'Steph Curry';
+
+const paraThree = document.querySelector('.paragraph3');
+console.log(paraThree);
+
+paraThree.textContent = 'Kemba Walker';
+
+const paraFour = document.querySelector('.paragraph4');
+console.log(paraFour);
+
+paraFour.textContent = 'Kyrie Irving';
+
+const paraFive = document.querySelector('.paragraph5');
+console.log(paraFive);
+
+paraFive.textContent = 'Demien Lillard';
